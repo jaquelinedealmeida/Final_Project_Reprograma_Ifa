@@ -1,0 +1,30 @@
+.menu {
+    margin: 2rem;
+    margin-left: 0rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu li {
+    margin-left: 2rem;
+    list-style: none;
+    font-family: poppins;
+    
+}
+
+.link {
+    font-size: 1.2rem;
+    color: rgb(183, 224, 190);
+    text-decoration: none;
+    padding: 5rem;
+}
+
+@media (max-width:768px){
+    .menu {
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

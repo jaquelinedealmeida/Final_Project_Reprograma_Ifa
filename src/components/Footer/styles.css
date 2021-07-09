@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.5rem;
+ 
+    
+}
+
+.text1{
+    font-family: poppins;
+    font-size: 1rem;
+    color: rgb(10, 49, 17)
+   
+}
+
+.text2 {
+    font-family: poppins;
+    font-size: .8rem;
+    color: rgb(80, 42, 7);
+
+}
+
+h5 {
+    font-size: .8rem ;
+    font-family: poppins;
+    color:rgb(34, 33, 33);
+
+}
+
+
+
+.footer img {
+    flex-direction:row;
+}

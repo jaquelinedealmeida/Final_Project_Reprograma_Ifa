@@ -1,0 +1,20 @@
+.Saiba {
+    display: flex; 
+    background-color:white
+}
+
+
+.title_Saiba {
+    font-family: Oxanium;
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align:left;
+    color: rgb(136, 83, 3);
+
+}
+
+.Saiba p {
+    text-align: justify;
+    font-size: 2rem;
+    padding: 3rem;
+}
