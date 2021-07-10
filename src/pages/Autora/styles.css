@@ -1,6 +1,63 @@
 .author {
-    background-color:beige;
- 
+    display: flex;
+    background-image: url(../../assets/img5.png);
+    height: 1100px;
+    
+}
+
+.avatar img {
+
+    border-radius: 5rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+h6 {
+    font-family: Oxanium;
+    font-size: 2.1rem;
+    color: white;
+}
+
+.avatar ul {
+    margin-left: 10rem;
+    padding-top: 2rem;
+    padding: 3rem;
+    background-color: rgb(184, 11, 34);
+    list-style: none;
+    border-radius: 5rem ;
+    color: white;
+    font-family: poppins;
+    
 
 }
 
+.avatar li {
+    font-family: 10rem;
+}
+
+.Bio h2 {
+    color: white;
+    font-family: Oxanium; 
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right:5rem;
+    background-color: rgb(68, 4, 52);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius:2rem;
+    white-space: normal;
+}
+
+.Bio p {
+    
+    margin-left: 3rem;
+    margin-right: 5rem;
+    text-align: justify;
+    font-family: poppins;
+    background-color: rgb(95, 33, 80);
+    color:white;
+    padding: 2rem;
+    border-radius: 3rem;
+    font-family: 2rem;
+
+}

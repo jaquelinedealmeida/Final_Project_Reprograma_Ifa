@@ -19,6 +19,15 @@
     color: rgb(183, 224, 190);
     text-decoration: none;
     padding: 5rem;
+
+    transition-property: color;
+    transition-duration: 1s;
+    transition: 2s ease-in;
+}
+
+.link:hover {
+    color: rgb(243, 182, 13);
+    
 }
 
 @media (max-width:768px){
