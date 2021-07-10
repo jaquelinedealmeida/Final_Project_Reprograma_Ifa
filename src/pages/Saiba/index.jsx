@@ -1,16 +1,17 @@
 import React from "react";
 import dadosReferencias from "../../services/dadosReferencias";
+import Img6 from "../../assets/img6.png"
 import "./styles.css";
 
 function Saiba(props) {
   return (
     <div>
       <div className="Saiba">
+      <img src={Img6} alt="Ilustração etnica"/>
         <div>
           <h3 className="title_textAwo">FILHOS DA UNIDADE DUAL</h3>
           <p>
-            {" "}
-            A compreensão do Universo através dos números é uma dentre as
+            "A compreensão do Universo através dos números é uma dentre as
             enormes demonstrações de sofisticação presentes na cultura dos
             Iorubá. Herdeiros de parcela generosa de sua religiosidade, nós
             estamos ainda muito longe de vislumbrar o alcance de sua forma de
@@ -25,12 +26,15 @@ function Saiba(props) {
             por exemplo, os Iorubá entendem que Orun (mundo espiritual,
             erradamente traduzido por céu), e Aiyé, são duas metade de uma mesma
             unidade, Igbadu, que pode ser compreendida como a Criação, a obra
-            divina, narrada no sagrado Odu de Ifá Osá Ogundá.
+            divina, narrada no sagrado Odu de Ifá Osá Ogundá." 
+            <h6>Bàbáláwo Eduardo Ifakundayo</h6>
+           
           </p>
         </div>
-        {/* <a href="#conteudo" >Saiba Mais</a> botão interno não usado */ }
+        <a id="btn" href="#link" >Saiba Mais</a>
+      
           <div className="Title_Referencias">
-           <h2>Referências para Estudo</h2>
+           <h2 id="link" >Referências para Estudo</h2>
          </div>
       
         <div className="Dados">
@@ -58,7 +62,7 @@ function Saiba(props) {
                       {referencia.site}
                     </li>
                     <li>
-                      <span class="material-icons">history</span>{" "}
+                      <span class="material-icons">history</span>
                       {referencia.ano}
                     </li>
                     <img src={referencia.imagem} alt={referencia.nome} />
