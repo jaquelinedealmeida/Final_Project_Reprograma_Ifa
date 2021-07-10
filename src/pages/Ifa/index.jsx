@@ -9,10 +9,10 @@ function Ifa(props) {
         <div className="texts">
          <div>
                 <h2 className="title_Ifa">O que é Ifá? </h2>
-                <p className="text_ifa"> Ifá é um sistema tradicional Yorubá, localizado na Nigéria - África Ocidental
-                    Tem como princípio a prática espiritual, filosófica e social.
-                    O Ifá usa como metologodia um sistema binário de I e II, chamado Odus  para o acesso oracular 
-                    que permite ao consulente receber orientações de cuidado.
+                <p className="text_ifa"> Ifá é um sistema tradicional Yorubá, vindo na Nigéria - África Ocidental.
+                    Tem como princípio  práticas de cuidado espiritual, filosófica e social.
+                    O Ifá usa como metolodologia um sistema binário de I e II, chamado Odus  para acesso oracular 
+                    que permite ao consulente receber orientaçõe.
                     Esta consulta é realizada pelo Babalawo - pai do segredo, ou pela  Iyanifá - mãe de Ifá,
                     seguindo orientações de Orunmila, o sacerdote maior desta tradição, chamado Èléri Ípìn - 
                     o testemunho da criação e/ou destino.
@@ -20,17 +20,17 @@ function Ifa(props) {
                     São 16 Odus principais, chamados Meji,  e deles se derivam mais 240, chamodos Omo Odus, filhos dos Odus.
                     No total de 256 Odus. Cada Odu é representado por um símbolo/diagrama/sinal específico de natureza binária.
                     São  mais de 1600 Ese /versos (informações) em cada dado(Odu) que servem de base para as orientações 
-                    repassadas pelo sacerdote ou sacerdotiza  para o consulente, de acordo com o que ele precisa
+                    repassadas pelo sacerdote ou sacerdotisa  para o consulente, de acordo com o que ele precisa
                     realizar para conduzir melhor a sua vida.
-                    Durante milênios, todos estes versos foram memorizados pelos sacerdotes/isas, transmitidos oralmente.
-                    Somente recentemente passaram a serem escritos.</p>
+                    Durante milênios, todos estes versos foram memorizados pelos sacerdotes/isas e transmitidos oralmente.
+                    Somente recentemente passaram a ser escritos.</p>
                     </div>
         
                  <img src={Img4} alt="Ilustração etnica da África"/>
 
                  <div>
                 <h2 className="title_Algoritmos"> O Sistema Binário</h2>
-                <p className="text_alg"> A relação do sistema binário com Ifá se realiza através perpeção de 
+                <p className="text_alg"> A relação do sistema binário com Ifá se realiza através perpepção de 
                     do modo como estes sistemas se realizam: ligado e desligado; não e sim;
                     falso e verdadeiro; 0 e 1.
                     A partir deste sistema é possível realizar operações lógicas, aritméticas e representar 

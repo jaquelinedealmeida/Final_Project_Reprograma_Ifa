@@ -11,24 +11,25 @@
     padding: 0rem;
     background-color: rgb(253, 253, 253);
     animation:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    display: flex;
    
 }
 
 .main img {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    animation:unset;
-    animation-duration: 20s;
+  
+  width: 500px;
+  margin-right: 3rem;
+  
+   
   }
 
 h1 {
-   position: absolute;
-    color: rgb(243, 116, 11);
-    padding: 5rem;
-    font-size: 3rem;
-    margin-left: 115px;
+  
+    color: rgb(161, 77, 8);
+    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    font-size: 7.5rem;
     font-family: Oxanium;
 
 }

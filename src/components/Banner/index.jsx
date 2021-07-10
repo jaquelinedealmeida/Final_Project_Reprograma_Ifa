@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Img from '../../assets/image-background.svg'
+import Img from '../../assets/imgafrica.svg'
 import './styles.css'
 
 const Banner = () => {
