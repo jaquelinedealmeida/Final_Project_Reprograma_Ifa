@@ -1,52 +1,53 @@
 .texts {
-    background-color: rgb(124, 55, 15);
+    background-color: #8d3715;
     display: flex; 
+    padding-top: 3rem;
 }
 
 
 .title_Ifa{
     font-family: Oxanium;
     padding: 2rem;
-    padding-top: 9rem;
+    padding-top: 5rem;
     text-align: center;
     color: white;
-    
     
 }
 
 .title_Algoritmos{
     font-family: Oxanium;
     padding: 2rem;
-    padding-top: 9rem;
+    padding-top: 5rem;
     text-align: center;
     color: white;
 
 }
 
 .container_alg p {
-    font-family: Nunito ;
+    font-family: poppins;
     text-align: justify;
     color: white;
-    padding-bottom: 4rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 
 }
 
 .container_Ifa p {
-    font-family: Nunito ;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    font-family: poppins;
+    margin-left: 2rem;
+    margin-right: 2rem;
     text-align: justify;
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
 }
 
 
 .texts img {
-    width: 400px;
-    padding: 2rem;
-    padding-top: 5rem;
-    background-image:url('../../assets/img4.svg');
-    background-repeat: repeat-x;
+    width: 200px;
+    background-image: url(../../assets/img4.svg);
+  
 }
+
+

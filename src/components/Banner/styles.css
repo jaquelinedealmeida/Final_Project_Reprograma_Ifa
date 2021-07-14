@@ -9,28 +9,40 @@
 
 .main {
     padding: 0rem;
-    background-color: rgb(253, 253, 253);
+    background-color: #fefae0;
     animation:cubic-bezier(0.445, 0.05, 0.55, 0.95);
     display: flex;
+    width: 100%;
+   padding: 4rem;
    
 }
 
 .main img {
-  
   width: 500px;
-  margin-right: 3rem;
-  
+  margin-right: 5rem;
    
   }
 
 h1 {
   
-    color: rgb(161, 77, 8);
-    margin-left: 3rem;
-    margin-top: 5rem;
+    color: #da741c;
+    margin-left: 5rem;
+    margin-top: 7rem;
     margin-bottom: 4rem;
-    font-size: 7.5rem;
+    font-size: 7rem;
     font-family: Oxanium;
 
 }
 
+
+.main h2{
+  
+  color: #8d3715;
+  margin-left: 7rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-size: 5rem;
+  font-family: Oxanium;
+  text-align: right;
+
+}

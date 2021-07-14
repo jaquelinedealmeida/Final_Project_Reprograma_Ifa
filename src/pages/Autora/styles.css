@@ -1,15 +1,16 @@
 .author {
     display: flex;
-    background-image: url(../../assets/img5.png);
-    height: 1100px;
-    
+    height: 1000px;
+    background-color: #fefae0;
 }
 
 .avatar img {
 
-    border-radius: 5rem;
+    border-radius: 50rem;
     margin-top: 10rem;
     margin-left: 10rem;
+    border: blueviolet;
+
 }
 
 h6 {
@@ -20,15 +21,14 @@ h6 {
 
 .avatar ul {
     margin-left: 10rem;
-    padding-top: 2rem;
-    padding: 3rem;
-    background-color: rgb(184, 11, 34);
+    padding: 1.5rem;
+    background-color: #bc6c25;
     list-style: none;
-    border-radius: 5rem ;
+    border-radius: 1rem ;
     color: white;
-    font-family: Nunito;
+    font-family: poppins; 
+    text-align: center;
     
-
 }
 
 .avatar li {
@@ -38,14 +38,14 @@ h6 {
 .Bio h2 {
     color: white;
     font-family: Oxanium; 
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-left: 3rem;
-    margin-right:5rem;
-    background-color: rgb(68, 4, 52);
-    padding: 2rem;
+    margin-right:32.5rem;
+    background-color: #bc6c25;
+    padding: 1rem;
     margin-bottom: 2rem;
-    border-radius:2rem;
-    white-space: normal;
+    border-radius:1rem;
+    text-align: left;
 }
 
 .Bio p {
@@ -53,11 +53,11 @@ h6 {
     margin-left: 3rem;
     margin-right: 5rem;
     text-align: justify;
-    font-family: Nunito; 
-    background-color: rgb(95, 33, 80);
-    color:white;
-    padding: 2rem;
-    border-radius: 3rem;
+    font-family:poppins; 
+    background-color: #d68d39;
+    color:rgb(2, 0, 0);
+    padding: 1rem;
+    border-radius: .5rem;
     font-family: 2rem;
 
 }

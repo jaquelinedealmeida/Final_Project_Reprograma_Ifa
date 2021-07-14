@@ -7,7 +7,8 @@ const Banner = () => {
     return(
         <div className="main">
             <div>
-                <h1> Tech Ancestral => Ifá: um sistema binário </h1>
+                <h1> Tech Ancestral</h1>
+                <h2>IFÁ => um sistema binário</h2>
             </div>
         
         <img src={Img} alt="Ilustração etnica da África"/>
