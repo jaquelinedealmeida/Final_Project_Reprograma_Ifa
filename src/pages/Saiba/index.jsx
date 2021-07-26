@@ -16,8 +16,8 @@ function Saiba(props) {
             estamos ainda muito longe de vislumbrar o alcance de sua forma de
             entender o que nos cerca, tanto no planeta, Aiyé, quanto no Cosmo.
             Um belo exemplo, está na maneira como entendem o número 2, que é a
-            base estrutural de sua percepção do mundo.<hr></hr> Na raiz de sua
-            etnomatemática está a observação de que tudo que há na natureza só
+            base estrutural de sua percepção do mundo. <br></br>
+           Na raiz de sua etnomatemática está a observação de que tudo que há na natureza só
             tem unicidade quando em dupla. Ou seja, a base desustentação da vida,
              que precisa da interação do elemento masculino
             com o feminino, é compreendida como sendo o encontro de metades da
@@ -56,33 +56,39 @@ function Saiba(props) {
             console.log(referencia);
             return (
               <>
-                <aside className="card">
-                  <ul>
-                  <img src={referencia.imagem} alt={referencia.nome} />
-                    <li>
-                      <span class="material-icons">library_books </span>
+                <div className="card">
+
+              <div className="card_image">
+              <img src={referencia.imagem} alt={referencia.nome} />
+              </div>
+          
+                    <div className="Title">
+                    <span class="material-icons">library_books </span><p>Título</p>
                       {referencia.titulo}
-                    </li>
-                    <li>
-                      <span class="material-icons">face </span>
+                    </div>
+                  
+                    <div className="Author">
+                      
+                      <span class="material-icons">face</span><p>Autoria</p>
                       {referencia.autoria}
-                    </li>
-                    <li>
-                      <span class="material-icons">local_offer </span>
+                    </div>
+                    <div className="Local">
+                      <span class="material-icons">local_offer </span><p>Local</p>
                       {referencia.local}
-                    </li>
-                    <li>
-                      <span class="material-icons">login </span>
-                      {referencia.site}
-                    </li>
-                    <li>
-                      <span class="material-icons">history </span>
+                    </div>
+                  
+                    <div ClassName="Url">
+                    <span class="material-icons">login </span><p>Site</p>
+                      {referencia.url} 
+                    </div>
+                    <div className="Date">
+                      <span class="material-icons">history </span><p>Ano de Publicação</p>
                       {referencia.ano}
-                     
-                    </li>
+                    
+                    </div>
                    
-                  </ul>
-                </aside>
+        
+                </div>
               </>
             );
           })}

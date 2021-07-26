@@ -32,6 +32,10 @@ const Autora = () => {
               <span class="material-icons">room</span>
               {usuaria.location}
             </li>
+            <li>
+              <span class="material-icons">room</span>
+              {usuaria.linkedin}
+            </li>
           </ul>
         </div>
 

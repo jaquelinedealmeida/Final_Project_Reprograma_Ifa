@@ -3,6 +3,7 @@
     background-color: #fefae0;
 
    
+   
 }
 
 
@@ -20,14 +21,19 @@
 .Saiba p {
     text-align: justify;
     font-size: 1rem;
+    font-style: italic;
     padding: 5rem;
     font-family: poppins;
     margin-bottom: 1rem;
-    background-color: #a4ac86; 
-    border-color: seagreen;
-    width: 100%;
+    background-color: #8b9270;
+    text-indent: 0
 
+}
 
+.Saiba h6 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-align: right;
 }
 
 #btn  {
@@ -58,12 +64,6 @@ a {
   
 }
 
-.Saiba h6 {
-    font-size: 1rem;
-    padding-top: 1rem;
-    text-align: right;
-}
-
 
 .custom-shape-divider-top-1626049903 svg {
     position: relative;
@@ -86,33 +86,56 @@ a {
     font-family: Oxanium;
     padding: 4rem;
     background-color: #f8efb3;
+   
 
 }
 
-.card ul {
-    background-color: #414833;
-    padding: 2rem;
-    align-items: center;
-    display:inline-flexbox;
+.Dados {
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+
 
 }
 
-.card li {
-    background-color: whitesmoke;
-    color:rgb(126, 62, 10); 
-    font-family: poppins;
-    font-size: .7rem;
-    padding: .1rem;
-  
-    flex:row;
+
+.card {
+    background-color: #586440;
+flex-direction: column;
+box-shadow: 1px 2px 3px 3px #da741c;
+word-break: break-all;
+font-family: poppins;
+font-size: .7rem;
+color: rgb(242, 250, 247);
+margin-left: 30rem;
+margin-right: 30rem;
+text-align:center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+padding: 2rem;
+align-items: flex-end;
+
+
+}
+.material-icons {
+     color: #e7c7a6;
     
-    list-style-type: none;
-    text-align: center;
 }
-.card img {
-    width: 300px;
-    height: 300px;
-    border-radius: 20rem;
-  padding: 2rem;
 
+.card p {
+    color: #faf7f4;
+    background-color: #3a4228;
+    font-size: .9rem;
+    padding: .5rem;
+    text-align: center;
+    margin: 0%;
+
+    
+}
+.card_image img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20rem;
+    text-align: center;
+ 
 }
