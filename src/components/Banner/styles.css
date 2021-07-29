@@ -31,7 +31,18 @@ h1 {
     margin-bottom: 4rem;
     font-size: 7rem;
     font-family: Oxanium;
+    animation:cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
 
+@keyframes cubic-bezier {
+  0% {
+    
+      transform: translateX(100px);
+  }
+  100% {
+      transform: translateX(0);
+  }
 }
 
 
