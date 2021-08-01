@@ -1,11 +1,4 @@
-@keyframes fade-out {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
+
 
 .main {
     padding: 0rem;
@@ -13,15 +6,36 @@
     animation:cubic-bezier(0.445, 0.05, 0.55, 0.95);
     display: flex;
     width: 100%;
-   padding: 4rem;
+   padding: 1rem;
+
    
 }
 
 .main img {
   width: 500px;
   margin-right: 5rem;
-   
+  
   }
+
+  @keyframes elemento {
+    0% {
+    
+
+    }
+    100% {
+  
+      margin-left: 0%;
+  
+      width:300px;
+    height:300px;
+    }
+  }
+  .main img {			
+    animation: elemento 5s ease-in 0s alternate infinite none running;
+  }
+
+  
+  
 
 h1 {
   
@@ -33,16 +47,6 @@ h1 {
     font-family: Oxanium;
     animation:cubic-bezier(0.075, 0.82, 0.165, 1);
     
-}
-
-@keyframes cubic-bezier {
-  0% {
-    
-      transform: translateX(100px);
-  }
-  100% {
-      transform: translateX(0);
-  }
 }
 
 
