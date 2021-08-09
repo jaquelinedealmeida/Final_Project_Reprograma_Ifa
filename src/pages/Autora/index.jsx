@@ -33,8 +33,9 @@ const Autora = () => {
               {usuaria.location}
             </li>
             <li>
-              <span class="material-icons">room</span>
-              {usuaria.linkedin}
+              <span class="material-icons">account_box</span>
+              <a href="https://www.linkedin.com/in/jaqueline-de-almeida/"> {usuaria.page}
+            </a>
             </li>
           </ul>
         </div>
@@ -43,17 +44,18 @@ const Autora = () => {
           <h2>Sobre Mim</h2>
           <p>
             Sou uma buscadora de mim. Há mais de 10 anos pesquiso sobre
-            autocuidado e autoconhecimento e há 4 anos conheci o Ifá. 
-            Integro a Egbé Orúnmíla Atí Obatalá Adésina Ifakundayo, aonde estudo
-            sobre os Odus e Orisás há um ano.
+            autocuidado e autoconhecimento e há 4 anos conheci o Ifá. Integro a
+            Egbé Orúnmíla Atí Obatalá Adésina Ifakundayo, aonde estudo sobre os
+            Odus e Orisás há um ano.
           </p>
 
           <p>
-            Comunicológa, formada em Comunicação/Relações Públicas, há 10  anos atua na área
-            com comunicação digital, comunicação interna, atendimento, relacionamento e produção
-            de eventos. Também Terapeuta Integrativa e Sistêmica, realizo há 7
-            anos atendimentos e oficinas voltadas para práticas de
-            autoconhecimento e com tecnologias ancestrais de cuidado.
+            Comunicológa, formada em Comunicação/Relações Públicas, há 10 anos
+            atua na área com comunicação digital, comunicação interna,
+            atendimento, relacionamento e produção de eventos. Também Terapeuta
+            Integrativa e Sistêmica, realizo há 7 anos atendimentos e oficinas
+            voltadas para práticas de autoconhecimento e com tecnologias
+            ancestrais de cuidado.
           </p>
 
           <p>
@@ -71,4 +73,4 @@ const Autora = () => {
   );
 };
 
-export default Autora 
+export default Autora;

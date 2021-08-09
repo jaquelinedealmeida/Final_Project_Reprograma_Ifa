@@ -31,7 +31,7 @@
     font-size: 1rem;
     padding-top: 1rem;
     text-align: right;
-    margin-top: ;
+    
 }
 
 #btn  {
@@ -55,7 +55,7 @@ background-color:rgb(64, 121, 8);
 }
 
 a {
-    text-transform: uppercase;
+
  text-decoration: none;    
   font-family: poppins;
   color: rgb(234, 241, 239);

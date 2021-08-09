@@ -10,24 +10,25 @@ function Saiba(props) {
         <article>
           <h2 className="title_textAwo">Filhos da Unidade Dual</h2>
           <p>
-            "A compreensão do Universo através dos números é uma dentre as
+          <q>
+            A compreensão do Universo através dos números é uma dentre as
             enormes demonstrações de sofisticação presentes na cultura dos
             Iorubá. Herdeiros de parcela generosa de sua religiosidade, nós
             estamos ainda muito longe de vislumbrar o alcance de sua forma de
             entender o que nos cerca, tanto no planeta, Aiyé, quanto no Cosmo.
             Um belo exemplo, está na maneira como entendem o número 2, que é a
             base estrutural de sua percepção do mundo. <br></br>
-           Na raiz de sua etnomatemática está a observação de que tudo que há na natureza só
+            Na raiz de sua etnomatemática está a observação de que tudo que há na natureza só
             tem unicidade quando em dupla. Ou seja, a base desustentação da vida,
-             que precisa da interação do elemento masculino
+            que precisa da interação do elemento masculino
             com o feminino, é compreendida como sendo o encontro de metades da
             unidade chamada vida. Enquanto cristãos vivem da oposição entre céu
             e vida terrena, por exemplo, os Iorubá entendem que Orun (mundo
             espiritual, erradamente traduzido por céu), e Aiyé, são duas metade
             de uma mesma unidade, Igbadu, que pode ser compreendida como a
-            Criação, a obra divina, narrada no sagrado Odu de Ifá Osá Ogundá."
+            Criação, a obra divina, narrada no sagrado Odu de Ifá Osá Ogundá.</q>
             <h6>Bàbáláwo Eduardo Ifakundayo</h6>
-            
+  
           </p>
           
         </article>

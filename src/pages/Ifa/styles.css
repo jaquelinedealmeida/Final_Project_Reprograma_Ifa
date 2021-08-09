@@ -45,6 +45,7 @@
 
 
 .texts img {
+    margin-top: 1rem;
     width: 200px;
     background-image: url(../../assets/img4.svg);
   

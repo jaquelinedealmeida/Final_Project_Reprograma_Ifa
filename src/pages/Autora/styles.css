@@ -21,8 +21,7 @@ h6 {
 
 .avatar ul {
     margin-left: 10rem;
-    padding: 1rem;
-    padding-top: 1rem;
+    padding: .5rem;
     background-color: #8d3715;
     list-style: none;
     border-radius: 1rem ;
@@ -32,8 +31,10 @@ h6 {
     
 }
 
-.avatar li {
-    font-family: 10rem;
+
+.avatar a {
+  font-size: .8rem;
+
 }
 
 .Bio h2 {
