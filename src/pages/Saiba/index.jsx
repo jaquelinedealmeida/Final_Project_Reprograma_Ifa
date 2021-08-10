@@ -17,7 +17,8 @@ function Saiba(props) {
             estamos ainda muito longe de vislumbrar o alcance de sua forma de
             entender o que nos cerca, tanto no planeta, Aiyé, quanto no Cosmo.
             Um belo exemplo, está na maneira como entendem o número 2, que é a
-            base estrutural de sua percepção do mundo. <br></br>
+            base estrutural de sua percepção do mundo. 
+            <br></br>
             Na raiz de sua etnomatemática está a observação de que tudo que há na natureza só
             tem unicidade quando em dupla. Ou seja, a base desustentação da vida,
             que precisa da interação do elemento masculino
@@ -79,18 +80,19 @@ function Saiba(props) {
                     </div>
                   
                     <div ClassName="Url">
-                    <span class="material-icons">login </span><p>Site</p>
-                      {referencia.url} 
-                    </div>
-                    <div className="Date">
+                     <span class="material-icons">login </span><p>Site</p>
+                     <a href={referencia.url}>{referencia.url}</a>
+                      </div>
+                      
+                     <div className="Date">
                       <span class="material-icons">history </span><p>Ano de Publicação</p>
                       {referencia.ano}
                     
-                    </div>
+                     </div>
                    
         
-                </div>
-              </>
+                  </div>
+               </>
             );
           })}
         </div>

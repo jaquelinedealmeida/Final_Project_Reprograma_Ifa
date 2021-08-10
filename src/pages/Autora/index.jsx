@@ -34,7 +34,7 @@ const Autora = () => {
             </li>
             <li>
               <span class="material-icons">account_box</span>
-              <a href="https://www.linkedin.com/in/jaqueline-de-almeida/"> {usuaria.page}
+              <a href={usuaria.page}>Linkedin: Jaqueline de Almeida
             </a>
             </li>
           </ul>

@@ -21,7 +21,6 @@ h6 {
 
 .avatar ul {
     margin-left: 10rem;
-    padding: .5rem;
     background-color: #8d3715;
     list-style: none;
     border-radius: 1rem ;
@@ -42,10 +41,10 @@ h6 {
     font-family: Oxanium; 
     margin-top: 7rem;
     margin-left: 3rem;
+    margin-bottom: 2rem;
     margin-right:32.5rem;
     background-color: #8d3715;
     padding: 1rem;
-    margin-bottom: 2rem;
     border-radius:1rem;
     text-align: left;
 }

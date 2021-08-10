@@ -1,7 +1,7 @@
 .footer {
 
     width: 100%;
-    background-color:rgb(108, 131, 99);
+    background-color:#be6516;
    text-align: center;
 }
 
@@ -11,7 +11,7 @@
    
  }
 
-.text1{
+.text1 {
     display: flex;
     justify-content: space-around;
     font-family: poppins;
@@ -32,10 +32,13 @@
 
 .text1 p {
     align-self: center;
+    margin-left: 5rem;
 
 }
 
 .text1 h4 {
    align-self: center;
     font-family: poppins;
+    text-decoration: none;
+    
 }

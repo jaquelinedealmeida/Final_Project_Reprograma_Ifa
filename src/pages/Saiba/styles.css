@@ -100,7 +100,7 @@ margin-bottom: 2rem;
 }
 
 .card {
-    background-color: #586440;
+background-color: #586440;
 flex-direction: column;
 box-shadow: 1px 2px 3px 3px #da741c;
 font-family: poppins;
@@ -112,12 +112,12 @@ margin-top: 2rem;
 margin-bottom: 2rem;
 margin-right: 1.3rem;
 margin-left: 1rem;
-padding: .5rem;
+padding: 2rem;
 
 }
 .material-icons {
      color: #faca9a;
-     padding-top: 2rem;
+     padding-top: 1rem;
     
 }
 
@@ -137,4 +137,8 @@ padding: .5rem;
     border-radius: 20rem;
     text-align: center;
  
+}
+
+.Author {
+    
 }

@@ -46,7 +46,7 @@ const dadosReferencias = [
               titulo: "Ifá e Odus: Interdisciplinaridade, Lógica Binária, Cultura e Filosofia Africana",
               autoria: "Jair Delfino",
               local: "Programa de Pós-Graduação da Universidade Federal do Ceará-Faculdade e Educação",
-              site: "http://www.repositorio.ufc.br/handle/riufc/16444",
+              url: "http://www.repositorio.ufc.br/handle/riufc/16444",
               ano: "2016",
               imagem:"https://i.ibb.co/5c4CSx7/milky-way-2695569-1920.jpg"
            },
