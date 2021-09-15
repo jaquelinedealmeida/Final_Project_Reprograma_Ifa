@@ -2,7 +2,7 @@ import React from "react";
 import Img1 from "../../assets/img1-linkedin.svg";
 import Img2 from "../../assets/img2-github.svg";
 import Img3 from "../../assets/img3-instagram.svg";
-import Img5 from "../../assets/imgtech-ancestral.png"
+import Img5 from "../../assets/imgtech-ancestral-1.png"
 
 import "./styles.css";
 
@@ -11,7 +11,15 @@ const Footer = () => {
     <footer className="footer">
 
 
-      <div className="img">
+      <div className="text1">
+      <img src={Img5} alt ="Logo Tech Ancestral" />
+       <p>
+         2021 | Desenvolvido por <strong>Jaqueline de Almeida</strong> 
+       </p>
+       <h4> Todos os direitos reservados </h4>
+     </div>
+     
+     <div className="img-footer">
       <a href="https://www.linkedin.com/in/jaqueline-de-almeida/" target="_blank" rel="noopener noreferrer"
       >
         <img src={Img1} alt="Logo Linkedin" />
@@ -25,13 +33,6 @@ const Footer = () => {
         <img src={Img3} alt="Logo Instagram" />
       </a>
       </div>
-      <div className="text1">
-      <img src={Img5} alt ="Logo Tech Ancestral" />
-       <p>
-         2021 | Desenvolvido por <strong>Jaqueline de Almeida</strong> 
-       </p>
-       <h4> Todos os direitos reservados </h4>
-     </div>
       </footer>
     
        

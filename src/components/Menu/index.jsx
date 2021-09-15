@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Img5 from "../../assets/imgtech-ancestral.png";
+import Img5 from "../../assets/imgtech-ancestral-1.png";
 
 import "./styles.css";
 
@@ -10,7 +10,10 @@ const Menu = () => {
     <div className="nav">
     
       <ul className="menu">
-      <img src={Img5} alt="logo tech ancestral" />
+        <div className ="logo">
+        <img src={Img5} alt="logo tech ancestral" />
+        </div>
+  
         <li>
           <Link className="link" to="/">
             Home

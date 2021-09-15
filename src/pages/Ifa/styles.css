@@ -2,6 +2,7 @@
     background-color: #8d3715;
     display: flex; 
     padding-top: 0rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -48,6 +49,7 @@
     margin-top: 1rem;
     width: 200px;
     background-image: url(../../assets/img4.svg);
+    
   
 }
 

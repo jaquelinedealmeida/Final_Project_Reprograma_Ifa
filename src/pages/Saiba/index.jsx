@@ -81,7 +81,7 @@ function Saiba(props) {
                   
                     <div ClassName="Url">
                      <span class="material-icons">login </span><p>Site</p>
-                     <a href={referencia.url}>{referencia.url}</a>
+                     <a href={referencia.url}>{referencia.url}</a> 
                       </div>
                       
                      <div className="Date">
