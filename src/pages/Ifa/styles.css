@@ -53,4 +53,42 @@
   
 }
 
+.container_Unesco {
+    background-color: #fefae0;
+    
+}
+
+
+.text {
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    text-align: justify;
+    font-family: poppins;
+    font-style: italic;
+    color: #7e2d0d;
+    text-indent: 5rem;
+    line-height: 2rem;
+    
+}
+
+.titlle_Unesco {
+    text-align: center;
+    font-family: oxanium;
+    margin: 0rem 2rem;   
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 2.3rem;
+    color: #61772a;;
+}
+
+.container_Unesco h6 {
+    font-family: poppins;
+    text-align: right;
+    margin-right: 5rem;
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+    color:rgb(45, 58, 23);
+
+
+}
 

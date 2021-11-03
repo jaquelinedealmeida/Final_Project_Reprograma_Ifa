@@ -2,14 +2,14 @@
     display: flex;
     height: 1000px;
     background-color: #fefae0;
+    width: 100%;
 }
 
 .avatar img {
-
     border-radius: 50rem;
     margin-top: 10rem;
     margin-left: 10rem;
-    border: blueviolet;
+  border-top: darkolivegreen;
 
 }
 
@@ -19,14 +19,19 @@ h6 {
     color: white;
 }
 
+
 .avatar ul {
-    margin-left: 10rem;
+    margin-left: 9rem;
     background-color: #8d3715;
     list-style: none;
     border-radius: 1rem ;
     color: white;
     font-family: poppins; 
     text-align: center;
+    padding: 1rem 4rem;
+    font-size:1rem;
+    width: 80%;
+
     
 }
 
@@ -36,13 +41,16 @@ h6 {
 
 }
 
+
+
 .Bio h2 {
+    
     color: white;
     font-family: Oxanium; 
     margin-top: 7rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
+    margin-right: 20rem;
     margin-bottom: 2rem;
-    margin-right:32.5rem;
     background-color: #8d3715;
     padding: 1rem;
     border-radius:1rem;
@@ -51,11 +59,11 @@ h6 {
 
 .Bio p {
     
-    margin-left: 3rem;
+    margin-left: 5rem;
     margin-right: 5rem;
     text-align: justify;
     font-family:poppins; 
-    background-color: #d68d39;
+    background-color: #f89f38;
     color:rgb(2, 0, 0);
     padding: 1rem;
     border-radius: .5rem;

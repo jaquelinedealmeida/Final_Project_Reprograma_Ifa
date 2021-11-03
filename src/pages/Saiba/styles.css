@@ -22,8 +22,9 @@
     font-style: italic;
     padding: 5rem;
     font-family: poppins;
-    background-color: #8b9270;
-    text-indent: 0
+    background-color: #9fb452;
+    text-indent: 3rem;
+    line-height: 1.8rem;
 
 }
 
@@ -42,15 +43,17 @@ margin-top: 2rem;
 margin-left: 70rem;
 transition-property: color;
 transition-duration: .5s;
-transition: .5s ease-in;
+transition: .3s ease-in;
 -webkit-animation: cubic-bezier(1, 0, 0, 1);
-  border-bottom: 3px solid #f3a260;
+  border-bottom: 2px solid #f3a260;
     
 }
 
 #btn:hover {
-color: rgb(224, 203, 144);
-background-color:rgb(64, 121, 8);
+color: rgb(255, 255, 255);
+background-color:rgb(192, 174, 9);
+border-bottom: 2px solid rgb(216, 206, 119);
+
 
 }
 
@@ -79,14 +82,11 @@ a {
 
 .Title_Referencias h3 {
     color: #da741c;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     font-family: Oxanium;
     padding: 2rem;
     background-color: #f8efb3;
-
-   
-
 }
 
 .Dados {
@@ -96,8 +96,9 @@ flex-wrap: wrap;
 justify-content: center;
 margin-bottom: 2rem;
 
-
 }
+
+
 
 .card {
 background-color: #586440;
@@ -108,17 +109,16 @@ font-size: .7rem;
 color: rgb(242, 250, 247);
 width: 280px;
 text-align:center;
-margin-top: 2rem;
-margin-bottom: 2rem;
-margin-right: 1.3rem;
-margin-left: 1rem;
+margin: 2rem 1rem; 
 padding: 2rem;
+word-wrap:break-word;
 
 }
+
+
 .material-icons {
      color: #faca9a;
-     padding-top: 1rem;
-    
+     padding-top: 1rem;   
 }
 
 .card p {
@@ -128,10 +128,29 @@ padding: 2rem;
     padding: .5rem;
     text-align: center;
     margin: 0%;
+    margin-bottom: .5rem;
+text-indent: 0;
+
 
     
 }
 
+.card:hover {
+ background-color: #7b924d;
+ width: 300px;
+
+}
+
+.card a:hover {
+    font-size: .8rem;
+    color: rgb(243, 217, 164);
+
+ 
+  }
+
+.card_image img:hover {
+    width: 10.3rem;
+}
 
 .card_image img {
     width: 10rem;
@@ -141,6 +160,5 @@ padding: 2rem;
  
 }
 
-.Author {
-    
-}
+
+

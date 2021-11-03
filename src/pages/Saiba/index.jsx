@@ -6,32 +6,32 @@ function Saiba(props) {
   return (
     <div>
       <div className="Saiba">
-      
         <article>
           <h2 className="title_textAwo">Filhos da Unidade Dual</h2>
           <p>
-          <q>
-            A compreensão do Universo através dos números é uma dentre as
-            enormes demonstrações de sofisticação presentes na cultura dos
-            Iorubá. Herdeiros de parcela generosa de sua religiosidade, nós
-            estamos ainda muito longe de vislumbrar o alcance de sua forma de
-            entender o que nos cerca, tanto no planeta, Aiyé, quanto no Cosmo.
-            Um belo exemplo, está na maneira como entendem o número 2, que é a
-            base estrutural de sua percepção do mundo. 
-            <br></br>
-            Na raiz de sua etnomatemática está a observação de que tudo que há na natureza só
-            tem unicidade quando em dupla. Ou seja, a base desustentação da vida,
-            que precisa da interação do elemento masculino
-            com o feminino, é compreendida como sendo o encontro de metades da
-            unidade chamada vida. Enquanto cristãos vivem da oposição entre céu
-            e vida terrena, por exemplo, os Iorubá entendem que Orun (mundo
-            espiritual, erradamente traduzido por céu), e Aiyé, são duas metade
-            de uma mesma unidade, Igbadu, que pode ser compreendida como a
-            Criação, a obra divina, narrada no sagrado Odu de Ifá Osá Ogundá.</q>
-            <h6>Bàbáláwo Eduardo Ifakundayo</h6>
-  
+            <q>
+              A compreensão do Universo através dos números é uma dentre as
+              enormes demonstrações de sofisticação presentes na cultura dos
+              Iorubá. Herdeiros de parcela generosa de sua religiosidade, nós
+              estamos ainda muito longe de vislumbrar o alcance de sua forma de
+              entender o que nos cerca, tanto no planeta, Aiyé, quanto no Cosmo.
+              Um belo exemplo, está na maneira como entendem o número 2, que é a
+              base estrutural de sua percepção do mundo.
+              <br></br>
+              <br></br>
+              Na raiz de sua etnomatemática está a observação de que tudo que há
+              na natureza só tem unicidade quando em dupla. Ou seja, a base
+              desustentação da vida, que precisa da interação do elemento
+              masculino com o feminino, é compreendida como sendo o encontro de
+              metades da unidade chamada vida. Enquanto cristãos vivem da
+              oposição entre céu e vida terrena, por exemplo, os Iorubá entendem
+              que Orun (mundo espiritual, erradamente traduzido por céu), e
+              Aiyé, são duas metade de uma mesma unidade, Igbadu, que pode ser
+              compreendida como a Criação, a obra divina, narrada no sagrado Odu
+              de Ifá Osá Ogundá.
+            </q>
+            <h6>Bàbáláwo Eduardo Ifákundayo</h6>
           </p>
-          
         </article>
         <a id="btn" href="#link">
           Saiba Mais
@@ -59,40 +59,41 @@ function Saiba(props) {
             return (
               <>
                 <div className="card">
-
-              <div className="card_image">
-              <img src={referencia.imagem} alt={referencia.nome} />
-              </div>
-          
-                    <div className="Title">
-                    <span class="material-icons">library_books </span><p>Título</p>
-                      {referencia.titulo}
-                    </div>
-                  
-                    <div className="Author">
-                      
-                      <span class="material-icons">face</span><p>Autoria</p>
-                      {referencia.autoria}
-                    </div>
-                    <div className="Local">
-                      <span class="material-icons">local_offer </span><p>Local</p>
-                      {referencia.local}
-                    </div>
-                  
-                    <div ClassName="Url">
-                     <span class="material-icons">login </span><p>Site</p>
-                     <a href={referencia.url}>{referencia.url}</a> 
-                      </div>
-                      
-                     <div className="Date">
-                      <span class="material-icons">history </span><p>Ano de Publicação</p>
-                      {referencia.ano}
-                    
-                     </div>
-                   
-        
+                  <div className="card_image">
+                    <img src={referencia.imagem} alt={referencia.nome} />
                   </div>
-               </>
+
+                  <div className="Title">
+                    <span class="material-icons">library_books </span>
+                    <p>Título</p>
+                    {referencia.titulo}
+                  </div>
+
+                  <div className="Author">
+                    <span class="material-icons">face</span>
+                    <p>Autoria</p>
+                    {referencia.autoria}
+                  </div>
+                  <div className="Local">
+                    <span class="material-icons">local_offer </span>
+                    <p>Local</p>
+                    {referencia.local}
+                  </div>
+
+                  <div ClassName="Url">
+                    <span class="material-icons">login </span>
+                    <p>Site</p>
+                    <a href={referencia.url}>{referencia.url}</a>
+                    <br/>
+                  </div>
+
+                  <div className="Date">
+                    <span class="material-icons">history </span>
+                    <p>Ano de Publicação</p>
+                    {referencia.ano}
+                  </div>
+                </div>
+              </>
             );
           })}
         </div>
