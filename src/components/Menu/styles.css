@@ -2,7 +2,7 @@
 
    background-color: #023d0b;  
    width: 100%;
-   margin: 0%;
+  
   
 }
 
@@ -12,17 +12,13 @@
     align-items: center;
     background-color:  #023d0b;     
     width: 100%; 
+    
 }
-
-ul {
-    justify-content: right;
-  
- }
 
 .menu li {
     list-style: none;
     font-family: poppins;
-    margin-right: 2rem;
+    
    
 }
 
@@ -33,7 +29,7 @@ ul {
 
 .link {
     
-  padding: 2rem;
+
     font-size: 1.1rem;
     color: rgb(178, 248, 199); 
     text-decoration: none;
@@ -41,13 +37,17 @@ ul {
     transition-duration: .5s;
     transition: .5s ease-in;
     border-style:hidden;
+    padding-right: 2rem;
+    margin-left: 7rem;
     
 }
 
 .logo img {
     width: 6rem;
     height: 6rem;
-margin-right: 20rem;
+    margin-left: 13rem;
+    
+
 }
 
 .link:hover {
@@ -57,15 +57,13 @@ margin-right: 20rem;
 
 .custom-shape-divider-top-1626045408 {
     width: 100%;
-    height: 125px;
-  
-  
+    height: 0; 
+
 }
 
 .custom-shape-divider-top-1626045408 .shape-fill {
     fill: #B95B08;
     width: 100%;
-  
   
    
 }

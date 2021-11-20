@@ -16,7 +16,7 @@ const Footer = () => {
        <p>
          2021 | Desenvolvido por <strong>Jaqueline de Almeida</strong> 
        </p>
-       <h4> Todos os direitos reservados </h4>
+       <p> Todos os direitos reservados </p>
      </div>
      
      <div className="img-footer">
